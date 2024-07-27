@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "stockpredictorarimaandprophet"
+version = "0.0.1"
+description = "The objective of this project is to develop a predictive model for ETFs with low volitlty using time-series modeling, aiming to forecast stock prices."
+authors = [
+  { name = "Danny" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.10"
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+)/
+'''
+
+[tool.ruff.lint.isort]
+known_first_party = ["stockpredictorarimaandprophet"]
+force_sort_within_sections = true
