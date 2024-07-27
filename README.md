@@ -1,62 +1,19 @@
 # StockPredictorARIMAandProphet
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+## Project Overview<br>
+The stock market is a complex and highly dynamic environment influenced by numerous factors, making accurate stock analysis difficult. However, stock predictors still have values as it can be used to make informed decisions and maximize returns. To reduce risk and increase the accuracy of predictions, the focus will be on stocks with a history of low volatility and variability, often found in ETFs (Exchange-Traded Funds). <br>
 
-The objective of this project is to develop a predictive model for ETFs with low volitlty using time-series modeling, aiming to forecast stock prices.
 
-## Project Organization
+## Project Goal<br>
+The objective of this project is to develop a predictive model for ETFs with low volatility using ARIMA time-series analysis, aiming to forecast stock prices accurately. Success will be measured by metrics such as MAE and RMSE, with a timeline of 1 week for data collection, analysis, and evaluation. This project will showcase advanced machine learning techniques and provide visual comparisons of actual vs. predicted stock prices for informed investment decisions.<br>
 
-```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default mkdocs project; see mkdocs.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── pyproject.toml     <- Project configuration file with package metadata for stockpredictorarimaandprophet
-│                         and configuration for tools like black
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── stockpredictorarimaandprophet                <- Source code for use in this project.
-    │
-    ├── __init__.py    <- Makes stockpredictorarimaandprophet a Python module
-    │
-    ├── data           <- Scripts to download or generate data
-    │   └── make_dataset.py
-    │
-    ├── features       <- Scripts to turn raw data into features for modeling
-    │   └── build_features.py
-    │
-    ├── models         <- Scripts to train models and then use trained models to make
-    │   │                 predictions
-    │   ├── predict_model.py
-    │   └── train_model.py
-    │
-    └── visualization  <- Scripts to create exploratory and results oriented visualizations
-        └── visualize.py
-```
-
---------
-
+Table of Contents:
+1. Notebooks:<br>
+    1. [Data Wrangling & Exploratory Data Anaylsis](https://github.com/dhuang814/StockPredictorUsingARIMAandProphet/blob/main/notebooks/Data%20Wrangling%20and%20EDA.ipynb) <br>
+    2. [Preprosessing & Modelling](https://github.com/dhuang814/StockPredictorUsingARIMAandProphet/blob/main/notebooks/Preprocessing%20and%20Modeling.ipynb) <br>
+2. Reports: <br>
+    1. [Final Report](https://github.com/dhuang814/StockPredictorUsingARIMAandProphet/blob/main/reports/Stock%20Predictor%20-%20Final%20Report.pdf) <br>
+3. Presentation: <br>
+    1. [Powerpoint](https://github.com/dhuang814/StockPredictorUsingARIMAandProphet/blob/main/reports/SPLV%20Prediction%20using%20ARIMA%20and%20Facebook%20Prophet_Capstone3.pdf)<br>
+4. Pictures/Resources:
+    1. [Pictures](https://github.com/dhuang814/StockPredictorUsingARIMAandProphet/tree/main/models)
