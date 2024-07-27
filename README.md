@@ -9,8 +9,8 @@ The objective of this project is to develop a predictive model for ETFs with low
 
 Table of Contents:
 1. Notebooks:<br>
-    1. [Data Wrangling & Exploratory Data Anaylsis](https://github.com/dhuang814/StockPredictorUsingARIMAandProphet/blob/main/notebooks/Data%20Wrangling%20and%20EDA.ipynb) <br>
-    2. [Preprosessing & Modelling](https://github.com/dhuang814/StockPredictorUsingARIMAandProphet/blob/main/notebooks/Preprocessing%20and%20Modeling.ipynb) <br>
+    1. [Data Wrangling & Exploratory Data Analysis](https://github.com/dhuang814/StockPredictorUsingARIMAandProphet/blob/main/notebooks/Data%20Wrangling%20and%20EDA.ipynb) <br>
+    2. [Preprocessing & Modeling](https://github.com/dhuang814/StockPredictorUsingARIMAandProphet/blob/main/notebooks/Preprocessing%20and%20Modeling.ipynb) <br>
 2. Reports: <br>
     1. [Final Report](https://github.com/dhuang814/StockPredictorUsingARIMAandProphet/blob/main/reports/Stock%20Predictor%20-%20Final%20Report.pdf) <br>
 3. Presentation: <br>
